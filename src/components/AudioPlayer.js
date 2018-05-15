@@ -63,6 +63,7 @@ class AudioPlayer extends Component {
 				time : 0,
 				precached : false
 			});
+			return prevState;
 		} );
 	}
 	componentDidMount() {
