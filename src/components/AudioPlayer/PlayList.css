@@ -1,0 +1,28 @@
+DIV.audio-player-playlist>DIV {
+	border: 2px solid #386e9d;
+	border-bottom: 1px solid #386e9d;
+	max-height: 600px;
+	min-height: 24px;
+	overflow-y: auto;
+	border-radius: 10px;
+    overflow: hidden;
+}
+DIV.audio-player-playlist INPUT.filter-tracks {
+	box-sizing: border-box;
+    line-height: 24px;
+    vertical-align: middle;
+    width: 100%;
+    margin-bottom: 5px;
+    border: 2px solid #386e9d;
+	color: #6F6F6F;
+	font: Tahoma;
+    border-radius: 10px;
+    font-size: 11pt;
+    padding-left: 4px;
+    padding-right: 4px;
+	outline: none;
+	background: #FFFFFF;
+}
+DIV.audio-player-playlist INPUT.filter-tracks:focus {
+	background: #EFEFEF;
+}

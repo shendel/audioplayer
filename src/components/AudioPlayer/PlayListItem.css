@@ -1,0 +1,38 @@
+DIV.audio-player-playlist-item {
+	display: block;
+	line-height: 24px;
+	border-bottom: 1px solid #386e9d;
+	padding: 4px;
+	background: #FFFFFF;
+	cursor: pointer;
+}
+DIV.audio-player-playlist-item>EM,
+DIV.audio-player-playlist-item>B {
+	display: block;
+	font-style: normal;
+	color: #6F6F6F;
+	font-weight: bold;
+	font-family: Tahoma;
+	font-size: 11pt;
+}
+DIV.audio-player-playlist-item>B {
+	float: right;
+}
+DIV.audio-player-playlist-item::after {
+	display: block;
+	content: '';
+	clear: both;
+}
+DIV.audio-player-playlist-item:hover {
+	background: #EFEFEF;
+}
+DIV.audio-player-playlist-item.-hidden {
+	display: none;
+}
+DIV.audio-player-playlist-item.-active {
+	background: #386e9d;
+}
+DIV.audio-player-playlist-item.-active>EM,
+DIV.audio-player-playlist-item.-active>B {
+	color: #FFFFFF;
+}
